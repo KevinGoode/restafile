@@ -1,11 +1,12 @@
 # restafile
-Restafile is an extremly lightweight rest server that supports full CRUD operations on a tree of files
+Restafile is an extremly lightweight rest server that supports
+full CRUD operations on a tree of files
 Restafile is written using .netcore using the Visual Studio Code development environment
-//To create a project like this;
-//https://www.youtube.com/watch?v=QpjkiQ5qYtw
-//This project created by:  dotnet new api -n restafile 
-//To build: restafile>dotnet build
-//To run: restafile>dotnet run path=/home/goode_k/Dev/restafile/testfiles
+
+To create a project like this see: https://www.youtube.com/watch?v=QpjkiQ5qYtw
+This project created by:  dotnet new api -n restafile
+To build: restafile>dotnet build
+To run: restafile>dotnet run path=/home/goode_k/Dev/restafile/testfiles
 To use:
 1.) GET ALL:  IN Browser: http://localhost:5000/api/files
 2.) GET SINGLE FILE: In Browser http://localhost:5000/api/files/{id}
